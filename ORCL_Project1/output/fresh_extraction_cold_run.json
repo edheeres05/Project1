@@ -1,0 +1,29 @@
+{
+  "scope": "fresh temp directory, Python standard library, Linux container; not Windows graphical test",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "commands": [
+    {
+      "command": "orcl_project1_application.py --tests",
+      "exit_code": 0,
+      "output_tail": "test_base (__main__.test_suite.<locals>.TestWorkbench.test_base) ... ok\ntest_base_reset_integrity (__main__.test_suite.<locals>.TestWorkbench.test_base_reset_integrity) ... ok\ntest_boundaries (__main__.test_suite.<locals>.TestWorkbench.test_boundaries) ... ok\ntest_capex (__main__.test_suite.<locals>.TestWorkbench.test_capex) ... ok\ntest_discount (__main__.test_suite.<locals>.TestWorkbench.test_discount) ... ok\ntest_fail_loudly (__main__.test_suite.<locals>.TestWorkbench.test_fail_loudly) ... ok\ntest_growth (__main__.test_suite.<locals>.TestWorkbench.test_growth) ... ok\ntest_joint_and_grid (__main__.test_suite.<locals>.TestWorkbench.test_joint_and_grid) ... ok\ntest_margin (__main__.test_suite.<locals>.TestWorkbench.test_margin) ... ok\ntest_peer (__main__.test_suite.<locals>.TestWorkbench.test_peer) ... ok\ntest_reconcile (__main__.test_suite.<locals>.TestWorkbench.test_reconcile) ... ok\ntest_reverse (__main__.test_suite.<locals>.TestWorkbench.test_reverse) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.006s\n\nOK\n"
+    },
+    {
+      "command": "orcl_project1_application.py --summary",
+      "exit_code": 0,
+      "output_tail": "4085932\ngrowth_shift_pp:+2 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 69.19620112508913\nfy28_capex_pct:-10 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 58.91896260031928\nfy28_capex_pct:+0 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 57.71730134085932\nfy28_capex_pct:+10 INVALID FY2029 cash_floor_gap: -4,307.98683 vs expected 0.00000\ngross_margin_shift_pp:-1 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 54.13315025633963\ngross_margin_shift_pp:+0 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 57.71730134085932\ngross_margin_shift_pp:+1 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 61.30145242537907\nwacc_pct:+10.4 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 75.02595236985674\nwacc_pct:+11.4 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 57.71730134085932\nwacc_pct:+12.4 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 44.19151112343209\nterminal_growth_pct:+2 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 47.24474009321547\nterminal_growth_pct:+3 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 57.71730134085932\nterminal_growth_pct:+4 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 71.02028454732583\nterminal_capex_delta:+0 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 57.71730134085932\nterminal_capex_delta:+5000 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 45.929245316731894\nterminal_capex_delta:+10000 PASS_WITH_MATERIAL_VALUATION_LIMITATIONS 34.1411892926045\n"
+    },
+    {
+      "command": "orcl_project1_application.py --export",
+      "exit_code": 0,
+      "output_tail": "Saved /tmp/tmpk3i7faug/output/visible_output.json\n"
+    },
+    {
+      "command": "orcl_project1_application.py --demo-failure",
+      "exit_code": 0,
+      "output_tail": "EXPECTED FAILURE CAUGHT: FY2027 balance sheet: 334,686.82399 vs expected 335,686.82399\n"
+    }
+  ],
+  "status": "PASS",
+  "first_failure": "none in this independent extraction run"
+}

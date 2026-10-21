@@ -1,0 +1,156 @@
+{
+  "status": "INTERMEDIATE_Q1_BRIDGE_NOT_A_POST_Q1_FORECAST_OR_VALUATION",
+  "report_date": "2026-10-19",
+  "historical_filing_period_end": "2026-08-31",
+  "intended_valuation_date": "2026-09-24",
+  "amounts_unit": "USD millions",
+  "primary_source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+  "provenance": {
+    "original_module_sha256": "c9a282a98eb48c395e8ebdefe2690fa6400524db855b19be2bcdfd26c51c24ae",
+    "original_model_modified": false,
+    "revision1_original_modified": false
+  },
+  "aug31_balance": {
+    "assets": {
+      "cash_and_equivalents": 36369,
+      "marketable_securities": 708,
+      "trade_receivables": 11394,
+      "prepaid_and_other_current": 7159,
+      "ppe_net": 127845,
+      "operating_lease_rou_assets": 33967,
+      "goodwill": 62267,
+      "deferred_tax_assets": 11625,
+      "other_noncurrent_assets": 11925
+    },
+    "liabilities": {
+      "current_borrowings": 7625,
+      "accounts_payable": 11063,
+      "accrued_compensation": 1760,
+      "current_deferred_revenues": 14686,
+      "other_current_liabilities": 12380,
+      "noncurrent_borrowings": 117712,
+      "taxes_payable": 12060,
+      "noncurrent_operating_lease_liabilities": 30594,
+      "other_noncurrent_liabilities": 28183
+    },
+    "equity": {
+      "preferred_stock": 4954,
+      "common_and_apic": 64319,
+      "accumulated_deficit": -1114,
+      "accumulated_other_comprehensive_loss": -1387,
+      "noncontrolling_interests": 424
+    },
+    "reported_assets": 303259,
+    "reported_equity": 67196
+  },
+  "aug31_reported_liabilities_calculated": 236063,
+  "q1_actual": {
+    "revenue": 19345,
+    "operating_income": 6728,
+    "net_income": 4760,
+    "depreciation": 3156,
+    "amortization": 202,
+    "operating_cash_flow": 23103,
+    "investing_cash_flow": -28580,
+    "capital_expenditures": 28499,
+    "financing_cash_flow": 13111,
+    "fx_on_cash_and_restricted_cash": 11,
+    "cash_and_restricted_cash_start": 31289,
+    "cash_and_restricted_cash_end": 38934,
+    "net_common_share_issuance_proceeds_atm": 19909,
+    "estimated_atm_shares_issued_millions": 141,
+    "new_significant_financing_customer_prepayments": 11363,
+    "other_deferred_revenue_cash_flow_increase": 3997,
+    "unrestricted_cash_and_equivalents_end": 36369,
+    "current_deferred_revenue_end": 14686,
+    "outstanding_common_shares_end_rounded_millions": 3024
+  },
+  "may31_comparators": {
+    "current_deferred_revenue": 9916,
+    "outstanding_common_shares_rounded_millions": 2880,
+    "total_assets": 261759,
+    "total_equity": 43056,
+    "cash_and_equivalents": 31289
+  },
+  "restricted_cash_implied_from_cash_flow_end_vs_balance_sheet": 2565,
+  "restricted_cash_excluded_from_unrestricted_cash": true,
+  "reported_q1_cfo_minus_capex": -5396,
+  "original_fy27_targets": {
+    "revenue": 90000.0,
+    "operating_income": 30263.0248,
+    "net_income": 19560.308536,
+    "operating_cash_flow": 47586.71384769738,
+    "capital_expenditures": 92500.0,
+    "stock_issuance_proceeds_in_full_year_plan": 19909.0,
+    "net_customer_cash_advances_in_full_year_plan": 20000.0,
+    "fcff": -39891.01435230262
+  },
+  "q2_through_q4_arithmetic_remaining_targets_NOT_validated_forecasts": {
+    "revenue": 70655.0,
+    "operating_income": 23535.0248,
+    "net_income": 14800.308536,
+    "operating_cash_flow": 24483.713847697378,
+    "capital_expenditures": 64001.0,
+    "reported_fcff_original_not_restated_for_q1": -39891.01435230262
+  },
+  "comparisons": {
+    "q1_percent_of_full_year_revenue": 21.494444444444444,
+    "q1_percent_of_full_year_capex": 30.809729729729728,
+    "q1_percent_of_full_year_operating_cash_flow": 48.54926539777848,
+    "current_deferred_revenue_balance_change": 4770,
+    "atm_issuance_cash_already_reported": 19909,
+    "q1_atm_proceeds_equals_entire_original_fy27_assumption": true
+  },
+  "accounting_validation": [
+    {
+      "name": "Aug31 total assets tie to filed total",
+      "status": "PASS",
+      "observed": 303259,
+      "expected": 303259
+    },
+    {
+      "name": "Aug31 total equity ties to filed total",
+      "status": "PASS",
+      "observed": 67196,
+      "expected": 67196
+    },
+    {
+      "name": "Aug31 balance sheet balances",
+      "status": "PASS",
+      "observed": 303259,
+      "expected": 303259
+    },
+    {
+      "name": "Q1 GAAP cash flow and FX roll-forward",
+      "status": "PASS",
+      "observed": 38934,
+      "expected": 38934
+    },
+    {
+      "name": "Q1 ordinary reported free cash flow = CFO - capex",
+      "status": "PASS",
+      "observed": -5396,
+      "expected": -5396
+    },
+    {
+      "name": "FY2027 original base still balances",
+      "status": "PASS",
+      "observed": -1.4551915228366852e-11,
+      "expected": 0
+    }
+  ],
+  "known_unresolved_before_price": [
+    "Build a new three-statement projection beginning with Aug31 reported balances, not FY2026 opening balances.",
+    "As of Sep24 valuation, exclude elapsed post-Aug31 cash flows (Sep1-24) from prospective PV or document a controlled interim/stub convention.",
+    "Do not add $19,909m ATM proceeds again as new financing in Sep1-May31; recheck common-share basis after Q1 issuances.",
+    "Do not add first-quarter $11,363m customer prepayments again to remaining-year financing/operating cash flow.",
+    "Classify significant-financing prepayments across long-term and short-term liabilities, and avoid double counting as operating cash AND separate debt.",
+    "Distinguish $36,369m unrestricted cash from $38,934m cash and restricted cash; separately review $708m marketable securities.",
+    "Model operating lease assets/liabilities consistently and separate preferred equity and NCI in EV-to-common bridge.",
+    "Justify terminal FCFF sustainable capex/reinvestment, WACC sources and validated low/base/high scenarios.",
+    "Obtain human AI-off pre-run directional prediction and locked input snapshot before the required new operating-input sensitivity test.",
+    "Do not issue a final price, recommendation, or claim fresh-run validation yet."
+  ],
+  "new_operating_sensitivity_run": false,
+  "new_valuation_claim": false
+}

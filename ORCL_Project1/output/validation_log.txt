@@ -1,0 +1,17 @@
+test_base (__main__.test_suite.<locals>.TestWorkbench.test_base) ... ok
+test_base_reset_integrity (__main__.test_suite.<locals>.TestWorkbench.test_base_reset_integrity) ... ok
+test_boundaries (__main__.test_suite.<locals>.TestWorkbench.test_boundaries) ... ok
+test_capex (__main__.test_suite.<locals>.TestWorkbench.test_capex) ... ok
+test_discount (__main__.test_suite.<locals>.TestWorkbench.test_discount) ... ok
+test_fail_loudly (__main__.test_suite.<locals>.TestWorkbench.test_fail_loudly) ... ok
+test_growth (__main__.test_suite.<locals>.TestWorkbench.test_growth) ... ok
+test_joint_and_grid (__main__.test_suite.<locals>.TestWorkbench.test_joint_and_grid) ... ok
+test_margin (__main__.test_suite.<locals>.TestWorkbench.test_margin) ... ok
+test_peer (__main__.test_suite.<locals>.TestWorkbench.test_peer) ... ok
+test_reconcile (__main__.test_suite.<locals>.TestWorkbench.test_reconcile) ... ok
+test_reverse (__main__.test_suite.<locals>.TestWorkbench.test_reverse) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.005s
+
+OK

@@ -1,0 +1,43 @@
+{
+  "revision": 4,
+  "created_at_date": "2026-10-19",
+  "status": "AI-assisted intermediate working bundle, NOT a final submission",
+  "original_and_prior_revision_files_untouched": true,
+  "old_revision1_record_matches_current_bytes": true,
+  "unit_test_command": "py -m unittest -v orcl_project1_valuation_tests.py",
+  "prior_8_files": [
+    "orcl_proforma_EthanHeeres.py",
+    "orcl_project1_fcff.py",
+    "orcl_project1_fcff_revision1.json",
+    "revision-record.json",
+    "orcl_project1_q1_bridge.py",
+    "orcl_project1_q1_bridge_revision2.json",
+    "orcl_project1_post_q1_proforma.py",
+    "orcl_project1_post_q1_proforma_revision3.json"
+  ],
+  "new_revision4_files": [
+    "orcl_project1_valuation_bridge.py",
+    "orcl_project1_valuation_revision4.json",
+    "orcl_project1_valuation_tests.py",
+    "orcl_project1_workbench_preview.py",
+    "README_Oracle_Project1_Revision4.md"
+  ],
+  "files_sha256": {
+    "orcl_proforma_EthanHeeres.py": "c9a282a98eb48c395e8ebdefe2690fa6400524db855b19be2bcdfd26c51c24ae",
+    "orcl_project1_fcff.py": "03fcc3778bc60f6c7654649e0282839ae7e1988ba476c18798b27528ce76f45b",
+    "orcl_project1_fcff_revision1.json": "5366122003f697409c2d0b4416b7da4f2d122ef835c2b47d74cb5ae9b145ab32",
+    "revision-record.json": "801ecedefab9210c09ec600f31718780a4d236d38d87ef7134055cf3694bc8c4",
+    "orcl_project1_q1_bridge.py": "3ab7e8c5078ab520619dd1a8618a84f43840ce073903f9f0d7985738292f369c",
+    "orcl_project1_q1_bridge_revision2.json": "4ade74fddf30d5301aa0173d97fcf58475e741cab612fc0aae363dc17ed131a4",
+    "orcl_project1_post_q1_proforma.py": "68085138df095882e6be8563d2054a1d001d46b0211bc11d64e9c73fa11b6d95",
+    "orcl_project1_post_q1_proforma_revision3.json": "ef94c7ae862e94a6952fac8a35d82a5f8041484d31763ba142f8ef3de029ab9f",
+    "orcl_project1_valuation_bridge.py": "0dceaca4e0f7d0961b140c7574baeb2362b3f4b783fdededdcddde77b46fcd80",
+    "orcl_project1_valuation_revision4.json": "0f5840822f453ce5419f16d99481100e4f99686971de92f72f327e4b43b2378b",
+    "orcl_project1_valuation_tests.py": "5353fe33dfec9ade00291f5802b761a1e1a3280935283044c6b57298f11c1bf7",
+    "orcl_project1_workbench_preview.py": "4e83d951e295d15b7f108caa6288a22e84a8a030fa6103c42f3f7e6fa19f99d0",
+    "README_Oracle_Project1_Revision4.md": "6ce708d4bf30266b62945d8cf26cb74cdd9914f88120d682903717fae0857a15"
+  },
+  "no_human_ai_off_prediction_created": true,
+  "no_fresh_operating_input_sensitivity_executed": true,
+  "final_investment_price_or_recommendation": null
+}

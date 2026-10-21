@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-20T03:00:10.803371+00:00",
+  "original_edition_a_name": "Project_1_Edition_A_ORCL.md",
+  "original_edition_a_sha256": "f5a7443624ddd7bec59e5f65fd702e2f62c828b850cff2249c0caba84ef9e6af",
+  "original_edition_a_bytes_unchanged": true,
+  "assembled_research_evolution_pdf_sha256": "ac3ed4291b51a8ac539f8db9a1163faf180da58ae7fa21aceca026bdf65d6d0b",
+  "original_brightspace_pdf_and_receipt_verified": false,
+  "research_evolution_sections": [
+    "Cover",
+    "Edition A rendered from byte-preserved source",
+    "Edition B review draft",
+    "A to B comparison and dated correction"
+  ],
+  "requirements_remaining": [
+    "Confirm Brightspace Edition A original PDF/receipt",
+    "Student review and signature of recommendations/attribution",
+    "Push accessible Github repository",
+    "Record Video 1,2,3 and produce corrected transcripts",
+    "Submit to Brightspace and preserve receipt"
+  ]
+}

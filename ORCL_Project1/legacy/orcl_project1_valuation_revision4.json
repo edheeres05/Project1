@@ -1,0 +1,198 @@
+{
+  "status": "INTERMEDIATE_DIAGNOSTIC_NOT_A_FINAL_FINANCIAL_VALUATION",
+  "revision": 4,
+  "date_prepared": "2026-10-19",
+  "balance_sheet_anchor": "2026-08-31",
+  "NOT_contemporaneous_value_as_of": "2026-08-31",
+  "intended_committee_price_date_not_yet_reconciled": "2026-09-24",
+  "units": "USD millions; shares millions; prices USD/share",
+  "filing_source": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+  "model_source": "orcl_project1_post_q1_proforma.py (revision 3, unmodified)",
+  "historical_evidence_bridge": {
+    "unrestricted_cash": 36369.0,
+    "marketable_securities": 708.0,
+    "restricted_cash_EXCLUDED": 2565.0,
+    "senior_notes_and_borrowings": 125337.0,
+    "finance_lease_liabilities": 9185.0,
+    "operating_lease_liabilities_NOT_FINANCIAL_DEBT": 34621.0,
+    "customer_deferred_revenues_NOT_FINANCIAL_DEBT": 30789.0,
+    "preferred_equity_claim": 4954.0,
+    "noncontrolling_interests": 424.0,
+    "cover_common_shares_millions": 3023.736,
+    "reported_assets": 303259.0,
+    "reported_liabilities": 236063.0,
+    "reported_equity": 67196.0
+  },
+  "forecast_audited_check_count": 52,
+  "legacy_assumptions_NOT independently validated": {
+    "WACC": 0.114,
+    "terminal_growth": 0.03
+  },
+  "base_diagnostic": {
+    "wacc": 0.114,
+    "terminal_growth": 0.03,
+    "terminal_rule": "UNVERIFIED: FY2031 signed FCFF \u00d7 (1+terminal_growth)",
+    "dcf": {
+      "pv_explicit_cash_flows": [
+        -29183.540109822123,
+        -7219.006166627842,
+        10020.325086894714,
+        16064.25478372666,
+        22444.954449384906
+      ],
+      "pv_explicit": 12126.988043556315,
+      "terminal_fcff": 38606.515871653704,
+      "terminal_value": 459601.3794244488,
+      "pv_terminal": 275217.89384364826,
+      "enterprise_value": 287344.8818872046,
+      "terminal_value_share": 0.9577964014395889
+    },
+    "equity_bridge": {
+      "cash_policy": "excess",
+      "preferred_policy": "outstanding_claim",
+      "minimum_operating_cash_reserve": 10000.0,
+      "enterprise_value": 287344.8818872046,
+      "plus_cash_in_bridge": 26369.0,
+      "plus_marketable_securities": 708.0,
+      "minus_senior_notes_and_borrowings": 125337.0,
+      "minus_finance_leases": 9185.0,
+      "minus_preferred_claim": 4954.0,
+      "minus_noncontrolling_interests": 424.0,
+      "NOT_SUBTRACTED_lease_operating": 34621.0,
+      "NOT_SUBTRACTED_customer_funding": 30789.0,
+      "EXCLUDED_restricted_cash": 2565.0,
+      "estimated_common_equity": 174521.8818872046,
+      "shares_millions": 3023.736,
+      "indicative_dollars_per_share_NOT_FINAL": 57.71730134085932,
+      "bridge_gap": 0.0
+    },
+    "terminal_share_alert": true,
+    "used_signed_negative_cash_flows": true
+  },
+  "alternate_preferred_if_converted_UNVERIFIED": {
+    "cash_policy": "excess",
+    "preferred_policy": "if_converted",
+    "minimum_operating_cash_reserve": 10000.0,
+    "enterprise_value": 287344.8818872046,
+    "plus_cash_in_bridge": 26369.0,
+    "plus_marketable_securities": 708.0,
+    "minus_senior_notes_and_borrowings": 125337.0,
+    "minus_finance_leases": 9185.0,
+    "minus_preferred_claim": 0.0,
+    "minus_noncontrolling_interests": 424.0,
+    "NOT_SUBTRACTED_lease_operating": 34621.0,
+    "NOT_SUBTRACTED_customer_funding": 30789.0,
+    "EXCLUDED_restricted_cash": 2565.0,
+    "estimated_common_equity": 179475.8818872046,
+    "shares_millions": 3054.974285,
+    "indicative_dollars_per_share_NOT_FINAL": 58.748737352204785,
+    "bridge_gap": 0.0
+  },
+  "alternate_cash_policy_total": {
+    "cash_policy": "total",
+    "preferred_policy": "outstanding_claim",
+    "minimum_operating_cash_reserve": 10000.0,
+    "enterprise_value": 287344.8818872046,
+    "plus_cash_in_bridge": 36369.0,
+    "plus_marketable_securities": 708.0,
+    "minus_senior_notes_and_borrowings": 125337.0,
+    "minus_finance_leases": 9185.0,
+    "minus_preferred_claim": 4954.0,
+    "minus_noncontrolling_interests": 424.0,
+    "NOT_SUBTRACTED_lease_operating": 34621.0,
+    "NOT_SUBTRACTED_customer_funding": 30789.0,
+    "EXCLUDED_restricted_cash": 2565.0,
+    "estimated_common_equity": 184521.8818872046,
+    "shares_millions": 3023.736,
+    "indicative_dollars_per_share_NOT_FINAL": 61.02446836866863,
+    "bridge_gap": 0.0
+  },
+  "wacc_growth_grid_NOT_operating_test": [
+    {
+      "wacc": 0.104,
+      "terminal_growth": 0.02,
+      "indicative_dollars_per_share_NOT_FINAL": 61.26544385970154
+    },
+    {
+      "wacc": 0.104,
+      "terminal_growth": 0.03,
+      "indicative_dollars_per_share_NOT_FINAL": 75.02595236985677
+    },
+    {
+      "wacc": 0.104,
+      "terminal_growth": 0.04,
+      "indicative_dollars_per_share_NOT_FINAL": 93.08661978943549
+    },
+    {
+      "wacc": 0.114,
+      "terminal_growth": 0.02,
+      "indicative_dollars_per_share_NOT_FINAL": 47.24474009321547
+    },
+    {
+      "wacc": 0.114,
+      "terminal_growth": 0.03,
+      "indicative_dollars_per_share_NOT_FINAL": 57.71730134085932
+    },
+    {
+      "wacc": 0.114,
+      "terminal_growth": 0.04,
+      "indicative_dollars_per_share_NOT_FINAL": 71.02028454732583
+    },
+    {
+      "wacc": 0.124,
+      "terminal_growth": 0.02,
+      "indicative_dollars_per_share_NOT_FINAL": 36.01167403500512
+    },
+    {
+      "wacc": 0.124,
+      "terminal_growth": 0.03,
+      "indicative_dollars_per_share_NOT_FINAL": 44.19151112343209
+    },
+    {
+      "wacc": 0.124,
+      "terminal_growth": 0.04,
+      "indicative_dollars_per_share_NOT_FINAL": 54.31892847100838
+    }
+  ],
+  "mathematical_tests": [
+    {
+      "check": "reject WACC 0.1 <= g 0.1",
+      "status": "PASS"
+    },
+    {
+      "check": "reject WACC 0.03 <= g 0.04",
+      "status": "PASS"
+    },
+    {
+      "check": "WACC monotonic EV on legacy base",
+      "status": "PASS"
+    },
+    {
+      "check": "terminal-growth monotonic EV on legacy base",
+      "status": "PASS"
+    },
+    {
+      "check": "both cash-policy EV/equity bridges reconcile",
+      "status": "PASS"
+    },
+    {
+      "check": "negative FY27/FY28 FCFF retained",
+      "status": "PASS"
+    }
+  ],
+  "terminal_dependency_pct": 95.77964014395889,
+  "final_value_per_share": null,
+  "recommendation": null,
+  "student_AI_off_operating_prediction_submitted": false,
+  "new_operating_input_sensitivity_executed": false,
+  "material_open_items": [
+    "WACC 11.4% and g 3% are unverified legacy Lab06 values, NOT approved committee inputs.",
+    "Terminal FCFF is mechanically grown from FY2031; build maintenance/growth capex, future lease, SBC and deferred-revenue schedules first.",
+    "Lease operating charges vs debt classification need independently reviewed cash flow consistency.",
+    "Preferred if-converted scenario is hypothetical; verify conversion share economics and future dilution.",
+    "Operating cash reserve (default $10B) is an analyst choice, not a verified excess cash claim.",
+    "Aug31 balance sheet was not public on Aug31: pick a disclosed post-filing committee date and handle the intervening stub.",
+    "Credible Oracle causal scenarios, market quote with matching date and comps/reverse DCF are still required.",
+    "Student must independently write, timestamp and freeze an AI-off operating-input prediction BEFORE the required changed-input run."
+  ]
+}

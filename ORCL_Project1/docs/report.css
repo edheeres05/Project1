@@ -1,0 +1,15 @@
+@page {size: letter; margin: .58in .64in .54in .64in; @bottom-right {content: "FIN 439  •  " counter(page); font-size: 8px; color:#64748b;}}
+body {font-family: 'DejaVu Sans',Arial,sans-serif; font-size: 9.25pt; line-height: 1.27; color:#1e293b;}
+h1 {font-size: 16.5pt; color:#102a46; border-bottom: 2px solid #d3dee9; padding-bottom: 5px; margin:0 0 10px;}
+h2 {font-size:10.7pt;color:#183f64;margin: 12px 0 5px;page-break-after:avoid;}
+h3 {font-size:10pt;color:#183f64;margin: 9px 0 4px;page-break-after:avoid;}
+p {margin: 4px 0 7px;}
+strong {color:#102a46;}
+li {margin: 3px 0;}
+ul,ol {margin:5px 0 7px;padding-left:18px;}
+table {border-collapse:collapse;width:100%;font-size:7.7pt;margin:8px 0;}
+th,td {border-bottom:1px solid #d7e2ec;padding:5px;text-align:left;vertical-align:top;}
+th {color:#173657;background:#eff4f8;}
+code {font-family: 'DejaVu Sans Mono',monospace; font-size:8.5pt;}
+pre {border:1px solid #d8e4ee;padding:7px;background:#f3f7fb;white-space:pre-wrap;}
+a {color:#205d97;word-break:break-all;}

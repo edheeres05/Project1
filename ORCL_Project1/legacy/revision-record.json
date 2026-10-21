@@ -1,0 +1,14 @@
+{
+  "created_at_utc": "2026-10-19T22:56:20.110602+00:00",
+  "status": "AI-assisted intermediate revision; not final submission",
+  "source_commit": "929330384066f82f9607f74bd5dedac9ed678cd7",
+  "run_command": "python orcl_project1_fcff.py --json",
+  "dependencies": "Python 3 standard library",
+  "original_files_modified": false,
+  "new_operating_sensitivity_run": false,
+  "sha256": {
+    "orcl_proforma_EthanHeeres.py": "c9a282a98eb48c395e8ebdefe2690fa6400524db855b19be2bcdfd26c51c24ae",
+    "orcl_project1_fcff.py": "03fcc3778bc60f6c7654649e0282839ae7e1988ba476c18798b27528ce76f45b",
+    "orcl_project1_fcff_revision1.json": "5366122003f697409c2d0b4416b7da4f2d122ef835c2b47d74cb5ae9b145ab32"
+  }
+}

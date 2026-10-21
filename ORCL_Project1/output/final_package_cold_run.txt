@@ -1,0 +1,11 @@
+Final ZIP clean-extraction check (2026-10-19 local submission date)
+Source archive: ORCL_Project1_Ready_For_Video_Review.zip (pre-log build)
+Unzipped to an empty /tmp directory and executed with the files all in ORCL_Project1/.
+RUN python orcl_project1_application.py --tests: PASS (12 tests in 0.006s)
+RUN python orcl_project1_application.py --summary: PASS (WATCH/DEFER, illustrative $57.72/share, terminal 95.8%)
+RUN python orcl_project1_application.py --demo-failure: PASS (deliberate $1bn cash error raises expected balance-sheet failure)
+RUN python orcl_project1_application.py --export: PASS (visible_output.json regenerated)
+RUN verify Project_1_Edition_A_ORCL.md SHA-256: PASS (f5a7443624ddd7bec59e5f65fd702e2f62c828b850cff2249c0caba84ef9e6af)
+PDF pages verified: Research-Evolution.pdf=9; Decision-Memo.pdf=1; Validation-and-AI-Use.pdf=2.
+Limitation: GUI window visually test on student's Windows computer; the Python standard-library model and test suite were verified, not a Windows desktop screen recording.
+Limitation: this cold run confirms software reproducibility, not financial-source validation or Brightspace provenance.
